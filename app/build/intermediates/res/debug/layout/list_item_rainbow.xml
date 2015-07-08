@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_background_darkgray"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/colourfulPart"
+        android:layout_width="@dimen/list_item_rainbow_img_dims"
+        android:layout_height="@dimen/list_item_rainbow_img_dims"
+        android:padding="@dimen/list_item_rainbow_img_padding" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:text="@string/list_item_base"
+        android:textColor="@drawable/selector_text_color"
+        android:textSize="@dimen/list_item_rainbow_text_size" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="@dimen/list_item_rainbow_counter_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_item_rainbow_counter_margin_left"
+        android:layout_marginRight="@dimen/list_item_rainbow_counter_margin_right"
+        android:gravity="end"
+        android:textColor="@drawable/selector_counter_color"
+        android:textSize="@dimen/list_item_rainbow_counter_text_size"
+        android:textStyle="bold" />
+</LinearLayout>
+<!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/src/main/res/layout/list_item_rainbow.xml -->

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Splash</string>
+
+    <string name="splashText">...loading...</string>
+    <string name="homeText">Home</string>
+
+    <string name="list_item_base">solongitemthaticouldntcountitscharsonair</string>
+
+    <string name="dialog_list_rainbow_title">wow!</string>
+    <string name="dialog_list_rainbow_text">you have just pressed item №</string>
+    <string name="dialog_list_rainbow_button_label">notified</string>
+
+</resources>
