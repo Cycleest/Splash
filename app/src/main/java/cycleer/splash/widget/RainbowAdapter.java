@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import cycleer.splash.R;
 
-public class RainbowAdapter extends BaseAdapter implements View.OnClickListener{
+public class RainbowAdapter extends BaseAdapter implements View.OnClickListener {
 
     private LayoutInflater inflater;
     private int itemsCount;
@@ -24,6 +24,8 @@ public class RainbowAdapter extends BaseAdapter implements View.OnClickListener{
     private int period;
     private final Dialog dialog;
     private int selection;
+
+    public final int NO_SELECTIONS = -1;
 
     public RainbowAdapter(Context context, int itemsCount) {
         this.itemsCount = itemsCount;
@@ -103,21 +105,24 @@ public class RainbowAdapter extends BaseAdapter implements View.OnClickListener{
         dialogButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selection = -1;
+                selection = NO_SELECTIONS;
                 dialog.dismiss();
             }
         });
-        selection = Integer.parseInt(String.valueOf(((TextView)v.findViewById(R.id.counter)).getText()));
+        selection = Integer.parseInt(String.valueOf(((TextView) v.findViewById(R.id.counter)).getText()));
         dialog.show();
     }
 
-    public void setSelection(int number){
-        onClick(getView(number - 1, null, null));
-    }
-    public int getSelection(){
-        if(dialog.isShowing()){
-            return selection;
+    public void setSelection(int number) throws IndexOutOfBoundsException{
+        if(number < NO_SELECTIONS || number > itemsCount){
+            throw new IndexOutOfBoundsException();
         }
-        return -1;
+        else {
+            onClick(getView(number - 1, null, null));
+        }
+    }
+
+    public int getSelection() {
+        return selection;
     }
 }
