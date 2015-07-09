@@ -1,4 +1,4 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="oval">
     <solid android:color="@color/background_material_light" />
-</shape><!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/src/main/res/drawable/shape_round.xml -->
+</shape><!-- From: file:/C:/Users/mercury/AndroidProjects/Splash/app/src/main/res/drawable/shape_round.xml -->

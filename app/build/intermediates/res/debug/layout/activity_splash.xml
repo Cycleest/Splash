@@ -23,4 +23,4 @@
         android:text="@string/splashText"
         android:textSize="@dimen/activity_splash_text_size" />
 </LinearLayout>
-<!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/src/main/res/layout/activity_splash.xml -->
+<!-- From: file:/C:/Users/mercury/AndroidProjects/Splash/app/src/main/res/layout/activity_splash.xml -->

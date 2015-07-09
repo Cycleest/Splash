@@ -17,4 +17,4 @@
         android:layout_height="wrap_content"
         android:text="@string/dialog_list_rainbow_button_label" />
 </LinearLayout>
-<!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/src/main/res/layout/dialog_list_item_onclick.xml -->
+<!-- From: file:/C:/Users/mercury/AndroidProjects/Splash/app/src/main/res/layout/dialog_list_item_onclick.xml -->

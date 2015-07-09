@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/mercury/AndroidProjects/Splash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -46,10 +46,10 @@
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
     <color name="material_deep_teal_500">#ff009688</color>
-    <!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/mercury/AndroidProjects/Splash/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="orange">#ffff9800</color>
-    <!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/mercury/AndroidProjects/Splash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">#ff000000</color>
     <color name="primary_dark_material_light">#ff757575</color>
@@ -59,10 +59,10 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
-    <!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/mercury/AndroidProjects/Splash/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="purple">#ff6e0082</color>
-    <!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/mercury/AndroidProjects/Splash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="ripple_material_dark">#4dffffff</color>
     <color name="ripple_material_light">#1f000000</color>
@@ -159,7 +159,7 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/mercury/AndroidProjects/Splash/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_home_padding">5dp</dimen>
     <dimen name="activity_home_text_size">40sp</dimen>
@@ -167,21 +167,21 @@
     <dimen name="activity_margin">16dp</dimen>
     <dimen name="activity_splash_text_size">40sp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/mercury/AndroidProjects/Splash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
     <item name="dialog_fixed_width_major" type="dimen">320dp</item>
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
-    <!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/mercury/AndroidProjects/Splash/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="dialog_list_item_onclick_padding">5dp</dimen>
     <dimen name="dialog_list_item_onclick_text_size">25sp</dimen>
-    <!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/mercury/AndroidProjects/Splash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/mercury/AndroidProjects/Splash/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="list_item_rainbow_counter_margin_left">10dp</dimen>
     <dimen name="list_item_rainbow_counter_margin_right">10dp</dimen>
@@ -190,7 +190,7 @@
     <dimen name="list_item_rainbow_img_dims">50dp</dimen>
     <dimen name="list_item_rainbow_img_padding">10dp</dimen>
     <dimen name="list_item_rainbow_text_size">25sp</dimen>
-    <!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/mercury/AndroidProjects/Splash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
@@ -227,7 +227,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/mercury/AndroidProjects/Splash/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">Splash</string>
     <string name="dialog_list_rainbow_button_label">notified</string>
@@ -236,19 +236,19 @@
     <string name="homeText">Home</string>
     <string name="list_item_base">solongitemthaticouldntcountitscharsonair</string>
     <string name="splashText">...loading...</string>
-    <!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/mercury/AndroidProjects/Splash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/mercury/AndroidProjects/Splash/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
-    <!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/mercury/AndroidProjects/Splash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>

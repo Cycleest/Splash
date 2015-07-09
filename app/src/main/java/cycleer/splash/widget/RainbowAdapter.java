@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import cycleer.splash.R;
 
-public class RainbowAdapter extends BaseAdapter implements View.OnClickListener {
+public class RainbowAdapter extends BaseAdapter {
 
     private LayoutInflater inflater;
     private int itemsCount;
@@ -22,10 +22,6 @@ public class RainbowAdapter extends BaseAdapter implements View.OnClickListener 
     private int colorOrange;
     private int colorPurple;
     private int period;
-    private final Dialog dialog;
-    private int selection;
-
-    public final int NO_SELECTIONS = -1;
 
     public RainbowAdapter(Context context, int itemsCount) {
         this.itemsCount = itemsCount;
@@ -34,11 +30,7 @@ public class RainbowAdapter extends BaseAdapter implements View.OnClickListener 
         textBase = context.getResources().getString(R.string.list_item_base);
         colorOrange = context.getResources().getColor(R.color.orange);
         colorPurple = context.getResources().getColor(R.color.purple);
-        dialog = new Dialog(context);
-        dialog.setContentView(R.layout.dialog_list_item_onclick);
-        dialog.setTitle(context.getString(R.string.dialog_list_rainbow_title));
         period = 8;
-        selection = -1;
     }
 
     @Override
@@ -59,7 +51,6 @@ public class RainbowAdapter extends BaseAdapter implements View.OnClickListener 
     public View getView(int position, View convertView, ViewGroup parent) {
         if (convertView == null) {
             convertView = inflater.inflate(R.layout.list_item_rainbow, null);
-            convertView.setOnClickListener(this);
         }
         int localPosition = position % period;
         ImageView img = (ImageView) convertView.findViewById(R.id.colourfulPart);
@@ -95,34 +86,5 @@ public class RainbowAdapter extends BaseAdapter implements View.OnClickListener 
 
     public View getDropDownView(int position, View convertView, ViewGroup parent) {
         return getView(position, convertView, parent);
-    }
-
-    @Override
-    public void onClick(View v) {
-        TextView text = (TextView) dialog.findViewById(R.id.text);
-        text.setText(context.getString(R.string.dialog_list_rainbow_text) + ((TextView) v.findViewById(R.id.counter)).getText());
-        Button dialogButton = (Button) dialog.findViewById(R.id.dismissButton);
-        dialogButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                selection = NO_SELECTIONS;
-                dialog.dismiss();
-            }
-        });
-        selection = Integer.parseInt(String.valueOf(((TextView) v.findViewById(R.id.counter)).getText()));
-        dialog.show();
-    }
-
-    public void setSelection(int number) throws IndexOutOfBoundsException{
-        if(number < NO_SELECTIONS || number > itemsCount){
-            throw new IndexOutOfBoundsException();
-        }
-        else {
-            onClick(getView(number - 1, null, null));
-        }
-    }
-
-    public int getSelection() {
-        return selection;
     }
 }

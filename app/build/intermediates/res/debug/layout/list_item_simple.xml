@@ -4,4 +4,4 @@
     android:id="@+id/text"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:textSize="25sp"/><!-- From: file:/C:/Users/Steaz/AndroidProjects/Splash/app/src/main/res/layout/list_item_simple.xml -->
+    android:textSize="25sp"/><!-- From: file:/C:/Users/mercury/AndroidProjects/Splash/app/src/main/res/layout/list_item_simple.xml -->
