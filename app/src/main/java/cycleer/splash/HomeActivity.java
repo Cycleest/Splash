@@ -28,7 +28,7 @@ public class HomeActivity extends Activity implements AdapterView.OnItemClickLis
         listView.setOnItemClickListener(this);
         if (savedInstanceState != null && savedInstanceState.containsKey("focusedItemPosition")) {
             focusedItemPosition = savedInstanceState.getInt("focusedItemPosition");
-            showDialog(listView.getContext());
+            showDialog();
         } else {
             focusedItemPosition = NO_FOCUS;
         }
@@ -45,16 +45,16 @@ public class HomeActivity extends Activity implements AdapterView.OnItemClickLis
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         focusedItemPosition = position;
-        showDialog(parent.getContext());
+        showDialog();
     }
 
-    private void showDialog(Context context) {
+    private void showDialog() {
         final Dialog dialog;
-        dialog = new Dialog(context);
+        dialog = new Dialog(this);
         dialog.setContentView(R.layout.dialog_list_item_onclick);
-        dialog.setTitle(context.getString(R.string.dialog_list_rainbow_title));
+        dialog.setTitle(getString(R.string.dialog_list_rainbow_title));
         TextView text = (TextView) dialog.findViewById(R.id.text);
-        text.setText(context.getString(R.string.dialog_list_rainbow_text) + (focusedItemPosition + 1));
+        text.setText(getString(R.string.dialog_list_rainbow_text) + (focusedItemPosition + 1));
         Button dialogButton = (Button) dialog.findViewById(R.id.dismissButton);
         dialogButton.setOnClickListener(new View.OnClickListener() {
             @Override
